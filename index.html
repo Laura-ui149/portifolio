@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laura Pirolli Furlin | Desenvolvedora Full Stack</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo"><span class="code-font">LF</span>.dev</h1>
+            <nav>
+                <a href="#home">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#competencias">Habilidades</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero parallax-container">
+        <div class="parallax-bg" data-speed="-0.1"></div> 
+        <div class="container hero-grid">
+            <div class="hero-content scroll-reveal left-reveal">
+                <span class="greeting code-font">olá, eu sou</span>
+                <h2 class="name" id="typing-name"></h2> <p class="title">Arquiteta de Soluções Digitais e Criadora de Experiências Web e Mobile Imersivas.</p>
+                <p class="impact-phrase">Com uma paixão inabalável por código e design, transformo ideias complexas em aplicações robustas e intuitivas, do conceito à entrega.</p>
+                
+                <div class="contact-brief">
+                    <span><i class="fas fa-map-marker-alt"></i> Brasil</span>
+                    <span><i class="fas fa-envelope"></i> laurapirollifurlin@gmail.com</span>
+                </div>
+                <a href="#projetos" class="cta-button large-button">Explorar Meus Projetos <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="hero-image-container scroll-reveal right-reveal">
+                <img src="img/foto.jpg" alt="Laura Pirolli Furlin" class="profile-photo">
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="section-padding">
+        <div class="container about-grid">
+            
+            <div class="resumo-block scroll-reveal left-reveal">
+                <h2 class="section-title">Sobre Mim</h2>
+                <p>Desenvolvedora com experiência em criação de aplicações completas, desde o frontend até o backend. Atuação com desenvolvimento web e mobile, integração de APIs REST, autenticação de usuários e bancos de dados relacionais e não relacionais.</p>
+                <p>Focada em boas práticas de código, responsividade e performance.</p>
+                
+                <h3 class="subsection-title">Formação</h3>
+                <div class="formation-item">
+                    <p><strong>Curso Técnico em Análise e Desenvolvimento de Sistemas</strong></p>
+                    <p class="subtext">Conclusão: [ano ou cursando]</p>
+                </div>
+                <div class="formation-item">
+                    <p><strong>Dev Web: Construção de API com Node.Js</strong> (Extensão UCS)</p>
+                </div>
+                <div class="formation-item">
+                    <p><strong>Backend: APIs RESTful para Produção com Node.js, Express e Mongoose</strong> (Extensão UCS)</p>
+                </div>
+            </div>
+
+            <div id="competencias" class="skills-block scroll-reveal right-reveal">
+                <h2 class="section-title">Competências</h2>
+                <div class="skills-list">
+                    <div class="skill-group">
+                        <h3>Frontend</h3>
+                        <p>React.js, TypeScript, JavaScript, HTML5, CSS3, Sass, TailwindCSS, Flutter (Dart).</p>
+                    </div>
+                    <div class="skill-group">
+                        <h3>Backend</h3>
+                        <p>Node.js, Express.js, NestJS, PHP, JWT, Bcrypt, Criação/Consumo de APIs REST.</p>
+                    </div>
+                    <div class="skill-group">
+                        <h3>Banco de Dados</h3>
+                        <p>PostgreSQL, MySQL, MongoDB, Sequelize, Mongoose.</p>
+                    </div>
+                    <div class="skill-group">
+                        <h3>Outras</h3>
+                        <p>Git, GitHub, RESTful APIs, JSON, Fetch, Postman.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="contato" class="section-padding">
+        <div class="container contact-grid">
+            <div class="contact-info-block scroll-reveal left-reveal">
+                <h2 class="section-title" style="text-align: left;">Vamos Trabalhar Juntos?</h2>
+                <p>Estou ativamente buscando novas oportunidades e adoro discutir como minhas habilidades podem agregar valor ao seu projeto ou equipe. Não hesite em me contatar!</p>
+                <div class="details">
+                    <p><i class="fas fa-envelope"></i> laurapirollifurlin@gmail.com</p>
+                    <p><i class="fas fa-globe"></i> Brasil</p>
+                </div>
+                <div class="social-links">
+                    <a href="URL_LINKEDIN" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a href="URL_GITHUB" target="_blank" aria-label="GitHub"><i class="fab fa-github fa-2x"></i></a>
+                </div>
+            </div>
+
+            <form action="YOUR_FORMSPREE_ENDPOINT" method="POST" id="contact-form" class="contact-form scroll-reveal right-reveal">
+                <h3>Envie uma Mensagem</h3>
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Seu Nome" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="_replyto" placeholder="Seu Melhor Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" rows="6" placeholder="Sua Mensagem..." required></textarea>
+                </div>
+                <button type="submit" class="cta-button large-button">Enviar Mensagem</button>
+                <p id="form-message" class="form-message"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p><span class="code-font">console.log('Laura Pirolli Furlin © 2024')</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
