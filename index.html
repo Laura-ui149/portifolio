@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laura Pirolli Furlin | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar" id="navbar">
+        <div class="container">
+            <a href="#home" class="logo"><span class="code-font">&lt;</span>LF<span class="code-font">/&gt;</span></a>
+            <nav class="nav-links" id="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <p class="hero-greeting code-font">// hi, I'm</p>
+                <h1 class="hero-name" id="typing-name"></h1>
+                <p class="hero-role"><span class="highlight">Full Stack</span> Developer</p>
+                <p class="hero-desc">I build complete applications, from database to interface — web and mobile. Focused on clean code, performance, and experiences that actually work.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View Projects <i class="fas fa-arrow-down"></i></a>
+                    <a href="https://www.linkedin.com/in/laura-furlin-4963a7265/" target="_blank" rel="noopener" class="btn btn-outline">LinkedIn <i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://github.com/Laura-ui149" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/laura-furlin-4963a7265/" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:laurapirollifurlin@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    <span class="hero-location"><i class="fas fa-map-marker-alt"></i> Brazil</span>
+                </div>
+            </div>
+            <div class="hero-photo-wrapper">
+                <div class="hero-photo-ring">
+                    <img src="img/foto.jpg" alt="Laura Pirolli Furlin" class="hero-photo">
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-hint"><span></span></div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container about-grid">
+            <div class="about-text scroll-reveal">
+                <span class="section-label">About Me</span>
+                <h2 class="section-heading">Developer passionate about <span class="highlight">code</span> and <span class="highlight">design</span></h2>
+                <p>I have experience building complete applications — from frontend to backend. I work with web and mobile development, REST API integration, user authentication, and both relational and non-relational databases.</p>
+                <p>Focused on best practices, responsiveness, and delivering real value in every project.</p>
+            </div>
+            <div class="about-formation scroll-reveal" data-delay="150">
+                <h3 class="subsection-title">Education</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div>
+                            <strong>Technical Degree in Systems Analysis and Development</strong>
+                            <span class="timeline-date">Expected: Dec/2025</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div>
+                            <strong>Web Dev: Building APIs with Node.js</strong>
+                            <span class="timeline-date">UCS Extension</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div>
+                            <strong>RESTful APIs for Production with Node.js, Express &amp; Mongoose</strong>
+                            <span class="timeline-date">UCS Extension</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <span class="section-label">Tech Stack</span>
+                <h2 class="section-heading">Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card scroll-reveal">
+                    <div class="skill-icon"><i class="fas fa-desktop"></i></div>
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span>React.js</span><span>TypeScript</span><span>JavaScript</span>
+                        <span>HTML5</span><span>CSS3</span><span>TailwindCSS</span><span>Flutter</span>
+                    </div>
+                </div>
+                <div class="skill-card scroll-reveal" data-delay="100">
+                    <div class="skill-icon"><i class="fas fa-server"></i></div>
+                    <h3>Backend</h3>
+                    <div class="skill-tags">
+                        <span>Node.js</span><span>Express.js</span><span>NestJS</span>
+                        <span>PHP</span><span>Spring Boot</span><span>JWT</span>
+                    </div>
+                </div>
+                <div class="skill-card scroll-reveal" data-delay="200">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>Databases</h3>
+                    <div class="skill-tags">
+                        <span>PostgreSQL</span><span>MySQL</span><span>MongoDB</span>
+                        <span>Sequelize</span><span>Mongoose</span>
+                    </div>
+                </div>
+                <div class="skill-card scroll-reveal" data-delay="300">
+                    <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Tools</h3>
+                    <div class="skill-tags">
+                        <span>Git</span><span>GitHub</span><span>Figma</span>
+                        <span>Postman</span><span>REST APIs</span><span>UI/UX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section section-dark">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <span class="section-label">Portfolio</span>
+                <h2 class="section-heading light">Projects</h2>
+            </div>
+            <div class="projects-grid">
+
+                <!-- MEISY -->
+                <div class="project-card scroll-reveal">
+                    <div class="project-top">
+                        <div class="project-icon-wrap"><i class="fas fa-briefcase"></i></div>
+                        <div class="project-links">
+                            <a href="https://github.com/Laura-ui149/Meisy-APP-" target="_blank" rel="noopener" class="proj-link" title="PHP Backend"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Meisy — Management System</h3>
+                    <p>Full financial and event management system. Handles products, suppliers, payments, and break-even analysis. Three-layer architecture: PHP API, Android app, and Spring Boot backend.</p>
+                    <div class="project-tech">
+                        <span>PHP</span><span>Java</span><span>Spring Boot</span><span>Flutter</span><span>Kotlin</span>
+                    </div>
+                    <div class="project-repo-links">
+                        <a href="https://github.com/Laura-ui149/Meisy-APP-" target="_blank" rel="noopener" class="repo-link">
+                            <i class="fab fa-github"></i> PHP Backend
+                        </a>
+                        <a href="https://github.com/Laura-ui149/Meisy-Aplicativo" target="_blank" rel="noopener" class="repo-link">
+                            <i class="fab fa-github"></i> Android App
+                        </a>
+                        <a href="https://github.com/Laura-ui149/Meisy---springboot" target="_blank" rel="noopener" class="repo-link">
+                            <i class="fab fa-github"></i> Spring Boot
+                        </a>
+                    </div>
+                </div>
+
+                <!-- JIRA FOR ME -->
+                <div class="project-card scroll-reveal" data-delay="100">
+                    <div class="project-top">
+                        <div class="project-icon-wrap"><i class="fas fa-tasks"></i></div>
+                        <div class="project-links">
+                            <a href="https://github.com/Laura-ui149/jira-for-me" target="_blank" rel="noopener" class="proj-link" title="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Jira for Me</h3>
+                    <p>Task management system inspired by Jira. Full REST API with JWT authentication, user management, issue tracking, and robust validation with Zod.</p>
+                    <div class="project-tech">
+                        <span>Node.js</span><span>Express</span><span>PostgreSQL</span><span>JWT</span><span>Zod</span>
+                    </div>
+                    <div class="project-repo-links">
+                        <a href="https://github.com/Laura-ui149/jira-for-me" target="_blank" rel="noopener" class="repo-link repo-link-full">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- SMART AGENDA -->
+                <div class="project-card scroll-reveal" data-delay="200">
+                    <div class="project-top">
+                        <div class="project-icon-wrap"><i class="fas fa-calendar-check"></i></div>
+                        <div class="project-links">
+                            <a href="https://github.com/Laura-ui149/GlobalTaskManager" target="_blank" rel="noopener" class="proj-link" title="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Smart Agenda</h3>
+                    <p>Web-based scheduling and task management app. Modern, responsive interface built with React and Vite, focused on daily productivity and organization.</p>
+                    <div class="project-tech">
+                        <span>React</span><span>Vite</span><span>JavaScript</span>
+                    </div>
+                    <div class="project-repo-links">
+                        <a href="https://github.com/Laura-ui149/GlobalTaskManager" target="_blank" rel="noopener" class="repo-link repo-link-full">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- FAST FOOD APP -->
+                <div class="project-card scroll-reveal" data-delay="300">
+                    <div class="project-top">
+                        <div class="project-icon-wrap"><i class="fas fa-mobile-alt"></i></div>
+                        <div class="project-links">
+                            <a href="https://github.com/Laura-ui149/fast_food_appReacyNative" target="_blank" rel="noopener" class="proj-link" title="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Fast Food App</h3>
+                    <p>Cross-platform mobile app for fast food ordering. Tab navigation with React Navigation, TypeScript for type safety, and NativeWind for Tailwind-based styling.</p>
+                    <div class="project-tech">
+                        <span>React Native</span><span>Expo</span><span>TypeScript</span><span>NativeWind</span>
+                    </div>
+                    <div class="project-repo-links">
+                        <a href="https://github.com/Laura-ui149/fast_food_appReacyNative" target="_blank" rel="noopener" class="repo-link repo-link-full">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container contact-grid">
+            <div class="contact-info scroll-reveal">
+                <span class="section-label">Get in Touch</span>
+                <h2 class="section-heading">Let's work <span class="highlight">together?</span></h2>
+                <p>I'm open to new opportunities and love discussing how I can add value to your project or team. Don't hesitate to reach out!</p>
+                <div class="contact-details">
+                    <a href="mailto:laurapirollifurlin@gmail.com" class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>laurapirollifurlin@gmail.com</span>
+                    </a>
+                    <a href="https://github.com/Laura-ui149" target="_blank" rel="noopener" class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <span>github.com/Laura-ui149</span>
+                    </a>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Brazil</span>
+                    </div>
+                </div>
+                <div class="contact-socials">
+                    <a href="https://www.linkedin.com/in/laura-furlin-4963a7265/" target="_blank" rel="noopener" class="social-btn">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/Laura-ui149" target="_blank" rel="noopener" class="social-btn">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="mailto:laurapirollifurlin@gmail.com" class="social-btn">
+                        <i class="fas fa-envelope"></i> Email
+                    </a>
+                </div>
+            </div>
+            <form class="contact-form scroll-reveal" data-delay="150" id="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Hi, I'd love to talk about..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary full-width">Send Message <i class="fas fa-paper-plane"></i></button>
+                <p class="form-message" id="form-message"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="code-font">// Laura Pirolli Furlin © 2025</p>
+            <p class="footer-sub">Built with HTML, CSS &amp; JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
